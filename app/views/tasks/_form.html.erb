@@ -1,0 +1,27 @@
+
+
+<%= form_for(task) do |form| %>
+
+  <p>
+  <%= form.label :title %>
+  <%= form.text_field :title %>
+  </p>
+
+  <p>
+  <%= form.label :details %>
+  <%= form.text_field :details %>
+  </p>
+
+  <p>
+  <%= form.label :completed %>
+  <%= form.number_field :completed %>
+  </p>
+
+  <p>
+  <%= form.submit %>
+  </p>
+
+<% end %>
+
+
+
